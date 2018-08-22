@@ -1,7 +1,6 @@
 /* --- General --- */
-
 body {
-  font-family: 'Droid Serif', 'Times New Roman', serif;
+  font-family: 'Slabo 27px', 'Times New Roman', serif;
   font-size: 18px;
   color: #404040;
   position: relative;
@@ -34,11 +33,12 @@ p a {
   color: #008AFF;
 }
 h1 {
-  font-family: 'Terminal Dosis', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Dosis', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 500;
 }
 h2,h3,h4,h5,h6 {
   font-family: 'Open Sans Condensed', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 600;
+  font-weight: 700;
 }
 a {
   color: #008AFF;
@@ -82,7 +82,7 @@ hr.small {
 
 div.panel-body a.list-group-item {
   font-family: 'Open Sans Condensed', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 800;
+  font-weight: 700;
   border-radius: 0;
   border: none;
 }
