@@ -31,22 +31,9 @@
           {{ end }}
         </ul>
         <p class="credits copyright text-muted">
-          &#169;
-          {{ if .Site.Author.name }}
-            {{ if .Site.Author.website }}
-              <a href="{{ .Site.Author.website }}">{{ .Site.Author.name }}</a>
-            {{ else }}
-              {{ .Site.Author.name }}
-            {{ end }}
-          {{ end }}
-
-          &nbsp;&bull;&nbsp;
-          {{ .Site.LastChange.Format "2006" }}
-
-          {{ if .Site.Title }}
-            &nbsp;&bull;&nbsp;
-            <a href="{{ "" | absLangURL }}">{{ .Site.Title }}</a>
-          {{ end }}
+          <a href="{{ "" | absLangURL }}">{{ .Site.Title }}</a> is licensed under a
+          <a href="https://creativecommons.org/licenses/by-nc/3.0/"> CC BY-NC license.
+          <img src="/img/by-nc.png" width="80" height="15" border="0" alt=""></a>
         </p>
         <!-- Please don't remove this, keep my open source work credited :) -->
         <p class="credits theme-by text-muted">
